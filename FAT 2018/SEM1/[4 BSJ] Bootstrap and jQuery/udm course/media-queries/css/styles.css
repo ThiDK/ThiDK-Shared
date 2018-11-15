@@ -1,0 +1,14 @@
+
+.test {
+ font-size:0.8em;
+ color:green;
+}
+
+@media (min-width: 768px) {
+    
+   .test {
+    font-size:1.5em;
+    color:red;
+   } 
+    
+  }
