@@ -1,0 +1,21 @@
+﻿@*@{
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }*@
+
+
+@{
+    ViewBag.Title = "Basics";
+}
+
+<h2>Hello <span data-bind="text:name"></span></h2>
+
+@section Scripts{
+    <script>
+        function ViewModel() {
+            this.name = "ThiDK FPT Education";
+        }
+
+        var viewModel = new ViewModel();
+        ko.applyBindings(viewModel);
+    </script>
+}
