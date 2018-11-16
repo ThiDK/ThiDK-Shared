@@ -33,10 +33,37 @@ namespace HelloWorld.Controllers
         //    return View(movies);
         //}
 
-        public ActionResult Index(string searchString, decimal? minPrice)
+        //public ActionResult Index(string searchString, decimal? minPrice)
+        //{
+        //    var movies = from m in db.Movies
+        //                 //where m.Title.Contains(searchString) && m.Price <= maxPrice
+        //                 select m;
+
+        //    if (!String.IsNullOrEmpty(searchString))
+        //    {
+        //        movies = movies.Where(s => s.Title.Contains(searchString));
+        //    }
+
+        //    if (minPrice.HasValue)
+        //    {
+        //        movies = movies.Where(s => s.Price >= minPrice);
+        //    }
+
+        //    return View(movies);
+        //}
+
+        public ActionResult Index(string movieGenre, string searchString)
         {
+            var GenreLst = new List<string>();
+
+            var GenreQry = from d in db.Movies
+                           orderby d.Genre
+                           select d.Genre;
+
+            GenreLst.AddRange(GenreQry.Distinct());
+            ViewBag.movieGenre = new SelectList(GenreLst);
+
             var movies = from m in db.Movies
-                         //where m.Title.Contains(searchString) && m.Price <= maxPrice
                          select m;
 
             if (!String.IsNullOrEmpty(searchString))
@@ -44,9 +71,9 @@ namespace HelloWorld.Controllers
                 movies = movies.Where(s => s.Title.Contains(searchString));
             }
 
-            if (minPrice.HasValue)
+            if (!string.IsNullOrEmpty(movieGenre))
             {
-                movies = movies.Where(s => s.Price >= minPrice);
+                movies = movies.Where(x => x.Genre == movieGenre);
             }
 
             return View(movies);
