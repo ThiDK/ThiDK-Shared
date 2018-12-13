@@ -1,0 +1,9 @@
+C:\Users\ThiDK\Documents\Aptech\ACCP 2018\SEM3\2. WAD\DemoFull\Session07\FPTUniversity\FPTUniversityData\bin\Debug\FPTUniversityData.dacpac
+C:\Users\ThiDK\Documents\Aptech\ACCP 2018\SEM3\2. WAD\DemoFull\Session07\FPTUniversity\FPTUniversityData\bin\Debug\FPTUniversityData.dll
+C:\Users\ThiDK\Documents\Aptech\ACCP 2018\SEM3\2. WAD\DemoFull\Session07\FPTUniversity\FPTUniversityData\bin\Debug\FPTUniversityData.pdb
+C:\Users\ThiDK\Documents\Aptech\ACCP 2018\SEM3\2. WAD\DemoFull\Session07\FPTUniversity\FPTUniversityData\obj\Debug\Model.xml
+C:\Users\ThiDK\Documents\Aptech\ACCP 2018\SEM3\2. WAD\DemoFull\Session07\FPTUniversity\FPTUniversityData\obj\Debug\refactor.xml
+C:\Users\ThiDK\Documents\Aptech\ACCP 2018\SEM3\2. WAD\DemoFull\Session07\FPTUniversity\FPTUniversityData\obj\Debug\postdeploy.sql
+C:\Users\ThiDK\Documents\Aptech\ACCP 2018\SEM3\2. WAD\DemoFull\Session07\FPTUniversity\FPTUniversityData\obj\Debug\predeploy.sql
+C:\Users\ThiDK\Documents\Aptech\ACCP 2018\SEM3\2. WAD\DemoFull\Session07\FPTUniversity\FPTUniversityData\obj\Debug\FPTUniversityData.dll
+C:\Users\ThiDK\Documents\Aptech\ACCP 2018\SEM3\2. WAD\DemoFull\Session07\FPTUniversity\FPTUniversityData\obj\Debug\FPTUniversityData.pdb

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\ThiDK\Documents\Aptech\ACCP 2018\SEM3\SEM3\Enterprise Application Programming (Windows Azure _ Web Services)\Demo\Demo1\HelloWorld\HelloWorld\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Users\ThiDK\Documents\Aptech\ACCP 2018\SEM3\SEM3\Enterprise Application Programming (Windows Azure _ Web Services)\Demo\Demo1\HelloWorld\HelloWorld\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\ThiDK\Documents\Aptech\ACCP 2018\SEM3\SEM3\Enterprise Application Programming (Windows Azure _ Web Services)\Demo\Demo1\HelloWorld\HelloWorld\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

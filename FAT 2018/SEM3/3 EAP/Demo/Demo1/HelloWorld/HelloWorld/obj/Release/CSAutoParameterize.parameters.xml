@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MyDbConnection-Web.config Connection String" description="MyDbConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\MSSQLLocalDB;&#xD;&#xA;            Initial Catalog=TaskManagement;&#xD;&#xA;            Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ThiDK\\Documents\\Aptech\\ACCP\ 2018\\SEM3\\SEM3\\Enterprise\ Application\ Programming\ \(Windows\ Azure\ _\ Web\ Services\)\\Demo\\Demo1\\HelloWorld\\HelloWorld\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyDbConnection']/@connectionString" />
+  </parameter>
+</parameters>
