@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="CusApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CusApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:CusApp.ServiceReference1"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <DataTemplate x:Key="CusDataTemplate">
+            <Grid Width="300" Background="Bisque" Height="102">
+                <StackPanel Margin="15,5,0,0" Orientation="Vertical">
+                    <TextBlock TextWrapping="NoWrap" Text="{Binding CompanyName}" Margin="15,0,0,0"  FontSize="20"/>
+                    <TextBlock TextWrapping="Wrap" Text="{Binding City}" Margin="15,0,0,0" FontSize="20"/>
+                    <TextBlock TextWrapping="Wrap" Text="{Binding Address}" Margin="15,0,0,0" FontSize="20"/>
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0"
+                   FontSize="24"
+                   Foreground="ForestGreen"
+                   FontWeight="Bold"
+                   Text="Customer List"
+                   />
+
+        <!--ItemTemplate="{StaticResource CusDataTemplate}"-->
+
+        <GridView Grid.Row="1" x:Name="grvCustomer" Margin="80,80,0,30" 
+                    ItemTemplate="{StaticResource CusDataTemplate}"
+                   FontSize="30"/>
+
+    </Grid>
+</Page>

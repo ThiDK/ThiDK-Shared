@@ -1,0 +1,12 @@
+C:\Users\ThiDK\source\repos\CustomerManagement\CustomerManagement\bin\CustomerManagement.dll.config
+C:\Users\ThiDK\source\repos\CustomerManagement\CustomerManagement\bin\CustomerManagement.dll
+C:\Users\ThiDK\source\repos\CustomerManagement\CustomerManagement\bin\CustomerManagement.pdb
+C:\Users\ThiDK\source\repos\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.csprojAssemblyReference.cache
+C:\Users\ThiDK\source\repos\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.csproj.CoreCompileInputs.cache
+C:\Users\ThiDK\source\repos\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.dll
+C:\Users\ThiDK\source\repos\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.pdb
+C:\Users\ThiDK\source\repos\CustomerManagement\CustomerManagement\bin\EntityFramework.dll
+C:\Users\ThiDK\source\repos\CustomerManagement\CustomerManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\ThiDK\source\repos\CustomerManagement\CustomerManagement\bin\EntityFramework.xml
+C:\Users\ThiDK\source\repos\CustomerManagement\CustomerManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\ThiDK\source\repos\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.csproj.CopyComplete

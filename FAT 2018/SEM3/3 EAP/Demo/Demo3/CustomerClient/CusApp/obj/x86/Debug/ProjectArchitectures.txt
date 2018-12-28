@@ -1,0 +1,1 @@
+C:\Users\ThiDK\source\repos\CustomerClient\CusApp\CusApp.csproj;x86
